@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Checkout Page</title>
+  </head>
+
+  <body>
+    <h1>Checkout</h1>
+    <section>
+      <h2>Your Cart</h2>
+      <img
+        src="https://cdn.freecodecamp.org/curriculum/labs/cube.jpg"
+        alt="rubik cube image"
+      />
+      <p>Rubik's cube</p>
+      <p>$9.99</p>
+    </section>
+    <section>
+      <h2>Payment Information</h2>
+      <form>
+        <label aria-hidden="true" for="card-name"
+          >Cardholder Name <span aria-hidden="true">*</span></label
+        >
+        <input required type="text" id="card-name" name="card-name" /> <br />
+
+        <label aria-hidden="true" for="card-number"
+          >Card Number <span aria-hidden="true">*</span></label
+        >
+        <input
+          aria-describedby="card-number-help"
+          required
+          type="text"
+          id="card-number"
+          name="card-number"
+        />
+
+        <p aria-describedby id="card-number-help">
+          Please enter your 16-digit card number without spaces or dashes
+        </p>
+
+        <label aria-hidden="true" for="expiry-date"
+          >Expiry Date <span aria-hidden="true">*</span></label
+        >
+        <input
+          required
+          type="text"
+          id="expiry-date"
+          name="expiry-date"
+          placeholder="MM/YY"
+        /><br />
+
+        <label for="cvv">CVV <span aria-hidden="true">*</span></label>
+        <input required text="text" id="cvv" name="cvv" /> <br />
+        <button type="submit">Place Order</button>
+      </form>
+    </section>
+  </body>
+</html>
