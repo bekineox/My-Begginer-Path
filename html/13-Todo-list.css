@@ -1,0 +1,52 @@
+body {
+  background-color: #f0f0f0;
+}
+a {
+  text-decoration: none;
+}
+h1 {
+  padding-top: 30px;
+  text-align: center;
+}
+
+.todo {
+  width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: white;
+  border-radius: 10px;
+}
+
+.todo-list {
+  list-style-type: none;
+}
+
+ul li {
+  line-height: 1.6;
+  margin-bottom: 15px;
+  background-color: #e5f1e5;
+  padding: 10px;
+  margin-right: 35px;
+  border-radius: 10px;
+}
+
+.space {
+  padding-bottom: 10px;
+}
+
+a:link {
+  color: blue;
+}
+a:hover {
+  color: red;
+}
+a:active {
+  color: orange;
+}
+a:focus {
+  outline: 2px solid orange;
+  color: black;
+}
+a:visited {
+  color: purple;
+}
